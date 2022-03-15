@@ -1,14 +1,44 @@
-
+/* montserrat-regular - latin_cyrillic */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../fonts/montserrat-v23-latin_cyrillic-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/montserrat-v23-latin_cyrillic-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* montserrat-500 - latin_cyrillic */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  src: local(''),
+       url('../fonts/montserrat-v23-latin_cyrillic-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/montserrat-v23-latin_cyrillic-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* oswald-500 - cyrillic */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 500;
+  src: local(''),
+       url('../fonts/oswald-v47-cyrillic-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/oswald-v47-cyrillic-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
 /* header */
+.header {
+  background-color: #66D1FF;
+}
 button {
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
   line-height: 29.26px;
 }
+
 a.btn-phone {
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 28px;
@@ -16,7 +46,7 @@ a.btn-phone {
 }
 /* section class="prewiev" */
 h1 {
-  font-family: Oswald;
+  font-family: 'Oswald', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 60px;
@@ -24,7 +54,7 @@ h1 {
   position: absolute;
 }
 .wedo {
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 32px;
@@ -32,59 +62,70 @@ h1 {
   position: absolute;
 }
 /* section class="info" */
+.info {
+  background-color: rgba(102, 209, 255, 0.1)
+}
 h2 #study {
-  font-family: Oswald;
+  font-family: 'Oswald', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 48px;
   line-height: 167%;
   position: absolute;
+  color: #060D10;
   }
 .info-item {
   font-style: normal;
 }
 h3 {
-  font-family: Oswald;
+  font-family: 'Oswald', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 32px;
   line-height: 167%;
+  color: #060D10;
 }
 p.info-item {
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 26px;
   line-height: 140%;
+  color: #060D10;
 }
+
 
 /* section class="lead" */
 h2 #go {
-  font-family: Oswald;
+  font-family: 'Oswald', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 48px;
   line-height: 167%;
+  color: #060D10;
 }
 a.btn-begin {
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 36px;
   line-height: 44px;
+  color: #060D10;
 }
 /* footer */
 p.join {
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 33.4px;
+  color: #060D10;
 }
 p.copy {
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 21.94px;
+  color: #060D10;
 }
