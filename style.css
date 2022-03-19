@@ -25,58 +25,104 @@
        url('../fonts/oswald-v47-cyrillic-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
        url('../fonts/oswald-v47-cyrillic-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-/* header */
-.header {
-  background-color: #66D1FF;
+/* common */
+* {
+  box-sizing: border-box;
 }
-button {
+
+body {
+  margin: 0%;
+}
+
+img {
+  display: block;
+  min-width: 100%;
+}
+
+.container {
+  width: 1278px;
+  margin: 0 auto;
+  border: 1px solid #f00;
+}
+
+/* header */
+
+.header {
+  padding: 40px 0;
+  background-color: #66D1FF;
+  color: #000;
+
+}
+
+.header-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu-item {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
-  line-height: 29.26px;
+  line-height: 29px;
+  background-color: #fff;
 }
 
-a.btn-phone {
+.btn-phone {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 28px;
-  line-height: 24.13px;
+  line-height: 24px;
+  text-decoration: none;
+  color: #000;
+
 }
+
 /* section class="prewiev" */
+.main {
+  background-image: url("../ski-school-nazmetdinova/pictures/promo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
 h1 {
   font-family: 'Oswald', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 60px;
   line-height: 89px;
-  position: absolute;
+  align-items: center;
 }
+
 .wedo {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 32px;
   line-height: 39px;
-  position: absolute;
+  align-items: center
 }
 /* section class="info" */
+
 .info {
   background-color: rgba(102, 209, 255, 0.1)
 }
+
 h2 #study {
   font-family: 'Oswald', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 48px;
   line-height: 167%;
-  position: absolute;
   color: #060D10;
   }
 .info-item {
   font-style: normal;
 }
+
 h3 {
   font-family: 'Oswald', sans-serif;
   font-style: normal;
@@ -85,6 +131,7 @@ h3 {
   line-height: 167%;
   color: #060D10;
 }
+
 p.info-item {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
@@ -96,6 +143,7 @@ p.info-item {
 
 
 /* section class="lead" */
+
 h2 #go {
   font-family: 'Oswald', sans-serif;
   font-style: normal;
@@ -104,6 +152,7 @@ h2 #go {
   line-height: 167%;
   color: #060D10;
 }
+
 a.btn-begin {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
@@ -113,19 +162,21 @@ a.btn-begin {
   color: #060D10;
 }
 /* footer */
+
 p.join {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 33.4px;
+  line-height: 33px;
   color: #060D10;
 }
+
 p.copy {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
-  line-height: 21.94px;
+  line-height: 22px;
   color: #060D10;
 }
