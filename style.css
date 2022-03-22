@@ -36,7 +36,7 @@ body {
 
 img {
   display: block;
-  min-width: 100%;
+  max-width: 100%;
 }
 
 .container {
@@ -82,11 +82,11 @@ img {
 
 /* section class="prewiev" */
 .prewiev {
-  border-width: 1px;
-  border-style: solid;
-  border-color: #000;
+  padding: 230px 0;
+  margin: 0 auto;
+  align-items: center;
 
-
+  width: 1440px;
   text-align: center;
   background-image: url("../pictures/promo.jpg");
   background-repeat: no-repeat;
@@ -96,17 +96,20 @@ img {
 }
 
 h1 {
-  padding: 81px;
-
+  color: #fff;
+  text-shadow: 1px 1px 2px #000;
   font-family: 'Oswald', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 60px;
   line-height: 89px;
-  align-items: center;
+
 }
 
 .wedo {
+  color: #fff;
+  text-shadow: 1px 1px 2px #000;
+
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -117,12 +120,21 @@ h1 {
 /* section class="info" */
 
 .info {
+  width: 1440px;
+  margin: 0 auto;
   background-color: rgba(102, 209, 255, 0.1)
 }
 
-.info-wrap {
+.info-wrap1 {
   display: flex;
   flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+.info-wrap2 {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
 }
 
 h2 .study {
@@ -159,12 +171,17 @@ p.info-item {
 
 /* section class="lead" */
 .lead-wrap {
+  display: block;
+  align-items: center;
+  flex-wrap: nowrap;
 
 }
 
 .go {
   align-items: center;
   text-align: center;
+
+
   font-family: 'Oswald', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -173,7 +190,8 @@ p.info-item {
   color: #060D10;
 }
 
-a.btn-begin {
+
+.btn-begin {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -182,23 +200,25 @@ a.btn-begin {
   color: #060D10;
   text-decoration: none;
   border: 3px solid #000;
-  padding: 10px 80px ;
+  padding: 10px 80px;
 }
 
-.lead-pictures {
+.lead-pictures-wrap {
   display: flex;
-  justify-content: start;
-  align-items: start;
+  justify-content: space-around;
+
   padding: 10px;
   margin: 0;
-
-  display: inline-block;
-  flex-wrap: wrap;
 }
 
 /* footer */
 .footer {
   background-color: #000;
+}
+
+.footer-wrap {
+  display: flex;
+  align-items: center;
 }
 
 p.join {
@@ -218,11 +238,10 @@ p.join {
   margin: 0;
 }
 
-.footer-wrap {
-  align-items: center;
-}
+.copy {
+  display: flex;
+  justify-content: end;
 
-p.copy {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
