@@ -47,6 +47,12 @@ img {
 
 /* header */
 
+.logo {
+  width: 300px;
+  padding: 20px;
+  background-repeat: no-repeat;
+}
+
 .header {
   padding: 40px 0;
   background-color: #66D1FF;
@@ -61,6 +67,9 @@ img {
 }
 
 .menu-item {
+  padding: 8px 40px;
+  border-radius: 5px;
+
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -82,6 +91,8 @@ img {
 
 /* section class="prewiev" */
 .prewiev {
+  background-color: rgba(6, 13, 16, 0.25);
+
   padding: 230px 0;
   margin: 0 auto;
   align-items: center;
