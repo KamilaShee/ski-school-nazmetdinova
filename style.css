@@ -51,6 +51,7 @@ img {
   width: 300px;
   padding: 20px;
   background-repeat: no-repeat;
+  color: rgba(0, 0, 0, 0);
 }
 
 .header {
@@ -90,6 +91,10 @@ img {
 }
 
 /* section class="prewiev" */
+section.prewiev {
+  background-color: rgba(6, 13, 16, 0.25);
+}
+
 .prewiev {
   background-color: rgba(6, 13, 16, 0.25);
 
@@ -182,7 +187,7 @@ p.info-item {
 .info-card {
   height: 100%;
   width: 400px;
-  border: 1px solid rgba(12, 0, 147, 0.8);
+
 }
 
 /* section class="lead" */
@@ -205,6 +210,7 @@ p.info-item {
 
 .btn-begin {
   margin-top: 30px;
+  background-color: rgba(0, 0, 0, 0);
 
   display: inline-block;
   font-family: 'Montserrat', sans-serif;
@@ -257,7 +263,7 @@ p.join {
   display: flex;
   justify-content: end;
 
-  margin-left: 750px;
+  margin-left: 705px;
 
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
@@ -268,10 +274,12 @@ p.join {
   text-align: right;
 }
 
-.social {
+.social-link {
   display: block;
   width: 35px;
   height: 35px;
   background-repeat: no-repeat;
   background-size: contain;
+  margin-left: 15px;
+  color: rgba(0, 0, 0, 0);
 }
